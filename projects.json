@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Task Management Dashboard",
+    "description": "A productivity application for organizing tasks and lists. Features full CRUD capabilities (Create, Read, Update, Delete) and utilizes a custom JSON-server API for data persistence.",
+    "sourceUrl": "https://github.com/Mostafa-Magdy-7/ToDoTask",
+    "liveUrl": "https://to-do-task-wheat.vercel.app/",
+    "tags": ["Angular", "JSON Server", "Bootstrap"],
+    "image": "assets/task-manager.png"
+  },
+  {
+    "id": 2,
+    "title": "Interactive Blog Platform",
+    "description": "A dynamic content management system allowing users to publish and manage blog posts. Implements complex state management for real-time post updates and deletion.",
+    "sourceUrl": "https://github.com/Mostafa-Magdy-7/Blog",
+    "liveUrl": "https://blog-ten-sandy-58.vercel.app/",
+    "tags": ["JavaScript", "API Integration", "CSS3"],
+    "image": "assets/blog-project.png"
+  },
+  {
+    "id": 3,
+    "title": "Professional Portfolio",
+    "description": "A modern, dark-themed portfolio website designed to showcase engineering projects. Built with a focus on component reusability, responsive design, and modern UI/UX principles.",
+    "sourceUrl": "https://github.com/Mostafa-Magdy-7/Portfolio",
+    "liveUrl": "https://mostafamagdy.dev",
+    "tags": ["Angular 17", "TypeScript", "Bootstrap 5"],
+    "image": "assets/portfolio.png"
+  }
+]
