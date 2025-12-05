@@ -7,7 +7,7 @@
     "sourceUrl": "https://github.com/Mostafa-Magdy-7/ToDoTask",
     "liveUrl": "https://to-do-task-wheat.vercel.app/",
     "tags": ["Angular", "JSON Server", "Bootstrap"],
-    "image": "assets/task-manager.png"
+    "image": "https://ibb.co/xtTVxVPq"
   },
   {
     "id": 2,
@@ -16,7 +16,7 @@
     "sourceUrl": "https://github.com/Mostafa-Magdy-7/Blog",
     "liveUrl": "https://blog-ten-sandy-58.vercel.app/",
     "tags": ["JavaScript", "API Integration", "CSS3"],
-    "image": "assets/blog-project.png"
+    "image": "https://ibb.co/WNK0Pstz"
   },
   {
     "id": 3,
@@ -25,7 +25,7 @@
     "sourceUrl": "https://github.com/Mostafa-Magdy-7/Portfolio",
     "liveUrl": "https://mostafamagdy.dev",
     "tags": ["Angular 17", "TypeScript", "Bootstrap 5"],
-    "image": "assets/portfolio.png"
+    "image": "https://ibb.co/nM3mcZN1"
   }
 ]
 }
