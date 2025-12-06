@@ -1,0 +1,40 @@
+<div class="projects" id="projects-section">
+<h2 class="poppins-bold ">Featured Projects</h2>
+<p class="inter-regular  gray">here is some of my recent projects </p>
+</div>
+<div class="container mt-5 projectcard">
+  <h2 class="mb-4 text-white poppins-bold">Featured Projects</h2>
+  
+  <div class="row ">
+    @for (item of projects; track item.id) {
+      <div class="col-md-6 col-lg-4 mb-4">
+        
+        <div class="card h-100" style="background-color: #111827; border: 1px solid #374151;">
+          <img [src]="item.image" class="card-img-top" [alt]="item.title" style="height: 200px; object-fit: cover;">
+          
+          
+          <div class="card-body">
+            <h5 class="card-title text-white poppins-bold">{{ item.title }}</h5>
+            
+            <div class="mb-2">
+              @for (tag of item.tags; track tag) {
+   
+                <span class="badge me-1" >{{ tag }}</span>
+              }
+            </div>
+
+            <p class="card-text text-secondary inter-regular">{{ item.description }}</p>
+            
+            <a [href]="item.liveUrl" target="_blank" class="btn btn-primary btn-sm me-2">Live Demo</a>
+            <a [href]="item.sourceUrl" target="_blank" class="btn btn-outline-light btn-sm">GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    } @empty {
+      <p class="text-white">Loading projects...</p>
+    }
+  </div>
+</div>
+
+

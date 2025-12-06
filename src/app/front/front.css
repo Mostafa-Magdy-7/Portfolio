@@ -1,0 +1,93 @@
+.gradiant {
+  background: linear-gradient(to right, #8b5cf6, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.welcome{
+    border: 20px;
+    border-radius: 20px;
+    border-color:#326ac4;
+    background:#131f3f ;
+    color: #2354a3;
+    
+}
+h1{
+    color: white;
+}
+.bio{
+    color:#9CA3AF;
+}
+.workButton{
+    background: #8B5CF6;
+    border-radius: 20px;
+    color: white;
+}
+.workButton:hover{
+    color: black;
+}
+.emailButton{
+    color: #8B5CF6;
+    border-color: #8B5CF6;
+    background: none;
+    border-radius: 20px;
+}
+.emailButton:hover{
+     background: #8B5CF6;
+    color: white;
+}
+.firstButtons{
+    display: flex;
+    gap: 10px;
+}
+
+.code-window {
+  background-color: #0d1117; 
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  font-family: 'Fira Code', monospace; 
+  max-width: 900px; 
+  margin: 20px auto;
+}
+
+
+.window-header {
+  background-color: rgba(255, 255, 255, 0.05); 
+  padding: 12px 16px;
+  display: flex;
+  gap: 8px; 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red { background-color: #ff5f56; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #27c93f; }
+
+
+.window-body {
+  padding: 24px;
+  color: #c9d1d9; 
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+.keyword { color: #ff7b72; }  
+.variable { color: #79c0ff; }  
+.property { color: #d2a8ff; }  
+a{
+  text-decoration: none;
+  color: #8B5CF6;
+}
+a:hover{
+  color: white;
+}

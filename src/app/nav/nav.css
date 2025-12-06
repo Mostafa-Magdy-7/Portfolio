@@ -1,0 +1,16 @@
+#nav {
+  background: linear-gradient(to right, #8b5cf6, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  
+
+}
+.navBar {
+  background-color: #111827;
+  display: flex;
+ 
+  align-items: center;
+  
+  height: 90px;
+}

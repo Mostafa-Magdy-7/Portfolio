@@ -1,0 +1,21 @@
+.projects {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.gray {
+  color: #9ca3af;
+  font-size: large;
+}
+.projectcard {
+  font-size: large;
+}
+.badge {
+  background-color:#5018d463;
+  color: #8b5cf6;
+  border-color: #8b5cf6;
+  border-radius: 20px;
+  border-style: solid;
+}
