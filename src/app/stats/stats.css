@@ -16,6 +16,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: transform 0.4s ease;
+}
+.statcard:hover{
+    transform: translateY(-10px);
 }
 .gray {
   color: #9ca3af;
